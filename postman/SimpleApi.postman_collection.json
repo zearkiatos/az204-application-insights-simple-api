@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "70c9e89d-3c8e-49d5-8eaa-7f80051cf137",
+		"name": "SimpleApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1347256"
+	},
+	"item": [
+		{
+			"name": "WeatherForecast",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{SIMPLE_API_BASE_URL}}/weatherforecast",
+					"host": [
+						"{{SIMPLE_API_BASE_URL}}"
+					],
+					"path": [
+						"weatherforecast"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
